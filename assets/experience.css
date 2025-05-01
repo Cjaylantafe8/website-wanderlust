@@ -1,0 +1,18 @@
+#experience{   
+    margin: 50px;
+}
+.experience-text h1{
+    color: #0a1e3f;
+    font-size: 2.5rem;
+    max-width: 800px;
+}
+.experience-text p{
+    color: #333;
+    max-width: 700px;
+    margin: 12px 0px 15px 0px;
+}
+.experience-image img{
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 8px;
+}
