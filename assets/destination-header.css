@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header-destination{
+    background-color: #001f3f;
+}
+.destination-text{
+    color: white;
+    padding: 50px 0px 25px 50px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+.destination-text h1{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+.destination-text p{
+    font-size: 1rem;
+    opacity: 0.8;
+}

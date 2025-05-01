@@ -1,0 +1,28 @@
+.destinations-list{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+.card{
+    max-width: fit-content;
+    padding: 15px;
+    border-radius: 5px;
+}
+.card-header img{
+    border-radius: 12px;
+}
+.card-body{
+    max-width: 200px;
+    margin: 5px 0px 7px 0px;
+}
+.card-header h3{
+    color: #2b4763;
+}
+@media only screen and (max-width: 768px) {
+    .destinations-list{
+        display: flex;
+        flex-direction: column;
+    }
+}

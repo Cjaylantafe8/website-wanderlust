@@ -1,0 +1,16 @@
+ .button-links button {
+    background-color:  #2b4763;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.3s ease;
+ }
+ .button-links button:hover{
+    transform: scale(1.2);
+}
+.button-links button a{
+   color: white;
+}

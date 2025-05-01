@@ -1,0 +1,29 @@
+#banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-text h1{
+    font-size: 32px;
+    font-weight: 500;
+    margin: 28px;
+    color:  #2b4763;
+    margin-top: 45px;
+}
+ .ban-text{
+    margin-left: -25px;
+ }
+ .banner-pic{
+    margin-top: -20px;
+ }
+@media only screen and (max-width: 768px) {
+    .banner-pic img{
+    width: 100%;
+    height: auto;
+    }
+    .button-links button{
+        padding: 10px 120px;
+        margin-top: 15px;
+    }
+}
