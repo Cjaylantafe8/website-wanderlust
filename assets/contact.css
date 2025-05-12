@@ -6,7 +6,10 @@
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 50px;
-    color: #0a1e3f;
+    background: linear-gradient(135deg, #002244 , #3498db); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
     text-align: center;
 }
 .contact-container{
@@ -19,7 +22,10 @@
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
-    color: #0b2545;
+    background: linear-gradient( #002244 , #3498db); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 @media only screen and (max-width: 768px) {
     .image-panel img{

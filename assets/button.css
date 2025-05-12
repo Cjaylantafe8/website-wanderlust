@@ -10,7 +10,7 @@
     transition: transform 0.3s ease;
 }
 .secondary-button{
-    background-color: #2b4763;
+    background: linear-gradient(135deg, #002244, #3498db);
     color: white;
     font-size: 12px;
     padding: 12px 21px;
