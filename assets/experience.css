@@ -2,7 +2,7 @@
     margin: 50px;
 }
 .experience-text h1{
-    background: linear-gradient(135deg, #002244, #3498db);
+    background: linear-gradient(to right,#0052D4 , #4364F7, #4283ce) ; 
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -17,10 +17,9 @@
 }
 .experience-image img{
     border-radius: 20px;
-    /* width: 100%; */
     margin-bottom: 8px;
     max-width: 100%;
-    height: 500px;
+    height: 400px;
     transition: transform 0.4s ease-in-out;
 
 }
@@ -34,7 +33,7 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
-    background-image: linear-gradient(135deg,#002244 , #3498db) ; 
+    background-image: linear-gradient(to right,#0052D4 , #4364F7, #4283ce) ; 
     max-width: fit-content;
     padding: 15px;
     border-radius: 15px;

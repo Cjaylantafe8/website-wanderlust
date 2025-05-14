@@ -36,7 +36,7 @@
 }
 .why-text h3{
     margin: 0;
-    background: linear-gradient(#002244 , #3498db); 
+    background: linear-gradient(to right, #0052D4, #3498db); 
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

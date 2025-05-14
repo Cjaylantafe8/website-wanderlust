@@ -1,5 +1,5 @@
 #footer{
-    background-color: #0a1e3f;
+    background: linear-gradient(to right, #1A2980, #20a3a1);
     padding: 5px;
     margin-top: 100px;
 
@@ -17,7 +17,8 @@
     font-size: 16px;
 }
 .footer-container p,li{
-    color: #a2b8d9;
+    color: #f1f1f1;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
     font-size: 13px;
 }
 .footer-container h1{

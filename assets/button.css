@@ -1,20 +1,23 @@
 .primary-button{
     background-color: transparent;
-    color: #2b4763;
+     background: linear-gradient(to right,#0052D4 , #4364F7, #4283ce) ; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
     font-size: 12px;
     font-weight: 600;
     padding: 12px 18px;
-    border: 1.5px solid #2b4763;
+    border: 1.5px solid #4283ce;
     border-radius: 15px;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
 .secondary-button{
-    background: linear-gradient(135deg, #002244, #3498db);
+    background: linear-gradient(to right, #0052D4, #4364F7, #6FB1FC);
     color: white;
     font-size: 12px;
     padding: 12px 21px;
-    border: 1.5px solid #2b4763;
+    border: 1.5px solid #4283ce;
     border-radius: 15px;
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -23,7 +26,7 @@
 
 .primary-button:hover{
     background-color: #2b4763;
-    color: white;
+    color: #4283ce;
     transform: scale(1.2);
 } 
 .secondary-button:hover{
