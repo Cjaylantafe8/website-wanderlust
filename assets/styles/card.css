@@ -1,0 +1,41 @@
+.destinations-list{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+    background-image: linear-gradient();
+
+}
+.card{
+    max-width: fit-content;
+    padding: 15px;
+    border-radius: 5px;
+}
+.card-header img{
+    border-radius: 12px;
+}
+.card-body{
+    max-width: 200px;
+    margin: 3px 0px 2px 0px;
+}
+.price{
+     background: linear-gradient(to right, #002244 , #3498db); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.card-header h3{
+     background: linear-gradient(to right, #002244 , #3498db); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+@media only screen and (max-width: 768px) {
+    .destinations-list{
+        display: flex;
+        flex-direction: column;
+    }
+}

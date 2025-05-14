@@ -1,0 +1,47 @@
+.primary-button{
+    background-color: transparent;
+     background: linear-gradient(to right,#0052D4 , #4364F7, #4283ce) ; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 12px 18px;
+    border: 1.5px solid #4283ce;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.secondary-button{
+    background: linear-gradient(to right, #0052D4, #4364F7, #6FB1FC);
+    color: white;
+    font-size: 12px;
+    padding: 12px 21px;
+    border: 1.5px solid #4283ce;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+}
+
+.primary-button:hover{
+    background-color: #2b4763;
+    color: #4283ce;
+    transform: scale(1.2);
+} 
+.secondary-button:hover{
+    background-color: #1f334a;
+    transform: scale(1.2);
+}
+button{
+    margin-right: 4px;
+}
+.back-button a{
+    color: white;
+}
+.back-button{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

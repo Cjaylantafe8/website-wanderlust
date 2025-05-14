@@ -1,0 +1,51 @@
+#banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0px 100px 0px;
+}
+.banner-text h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin: 28px;
+    background: linear-gradient(to right,#0052D4 , #4364F7, #4283ce) ; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-top: 45px;
+    text-align: center;
+}
+ .ban-text{
+    font-size: 45px;
+    text-align: center;
+ }
+ .banner-pic{
+    margin-top: -18px;
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    background-color: transparent;
+    object-fit: contain;
+    overflow: hidden;
+ }
+ .banner-pic img{
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+    overflow: hidden;
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+@media only screen and (max-width: 768px) {
+    .banner-pic img{
+    width: 100%;
+    height: auto;
+    }
+    .button-links button{
+        padding: 10px 120px;
+        margin-top: 15px;
+    }
+}

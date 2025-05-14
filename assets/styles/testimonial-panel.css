@@ -1,0 +1,9 @@
+
+.image-panel img{
+    display: flex;
+    border-radius: 16px; 
+    transition: transform 0.4s ease-in-out;
+}
+.image-panel img:hover{
+    transform: scale(1.05);
+}

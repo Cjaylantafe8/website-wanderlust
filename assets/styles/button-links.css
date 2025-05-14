@@ -1,0 +1,17 @@
+ .button-links button {
+    background: linear-gradient(to right, #0052D4, #4364F7, #6FB1FC);
+    font-weight: 600;
+    padding: 14px 34px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.3s ease;
+    margin-top: 20px;
+ }
+ .button-links button:hover{
+    transform: scale(1.2);
+}
+.button-links button a{
+   color: white;
+}

@@ -1,0 +1,29 @@
+.contactform{
+    flex: 1;
+    min-width: 300px;
+}
+.contactform p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #0b2545;
+}
+form input, form textarea, form button{
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #4364F7;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+form textarea{
+    overflow: hidden;
+    resize: none;
+}
+.form-row{
+    display: flex;
+    gap: 10px;
+
+}
+.form-row input{
+    flex: 1;
+}
