@@ -1,22 +1,37 @@
 #why-choose-us{
-    max-width: 1300px;
-    margin: 50px auto;
-    padding: 20px;
     font-family: 'Segoe UI',sans-serif;
+    background-color: white;
+    max-width: 1400px;
+    margin: 50px auto;
+
 }
 .why-text-us{
-    background: linear-gradient(135deg, #002244 , #3498db); 
+    background: linear-gradient(to right,#0052D4 , #4364F7, #4283ce) ; 
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 40px;
+    font-size: 3rem;
+    margin-bottom: 70px;
 }
 .choose-container{
     display: flex;
     justify-content: space-between;
-    gap: 50px;
+    gap: 40px;
+    margin-top: 40px;
+
+}
+.choose-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -40px;
+}
+.choose-logo img {
+    height: 40px;
+    max-width: 100%;
+    color: blue;
+    
 }
 .feature{
     display: flex;

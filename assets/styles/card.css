@@ -1,11 +1,9 @@
 .destinations-list{
     display: flex;
-    gap: 15px;
     align-items: center;
     justify-content: center;
     padding: 90px;
-    background-image: linear-gradient();
-
+    gap: 15px;
 }
 .card{
     max-width: fit-content;
@@ -38,4 +36,11 @@
         display: flex;
         flex-direction: column;
     }
+    .destinations-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 5px;
+   }
 }
