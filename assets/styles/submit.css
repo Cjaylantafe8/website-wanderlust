@@ -1,0 +1,23 @@
+.submitted-text{
+    margin-top: 300px;
+   
+}
+.submitted-text h1{
+    max-width: 600px;
+    text-align: center;
+}
+.submitted-text p{
+    margin-top: -40px;
+    color: #333;
+    max-width: 600px;
+    text-align: center;
+}
+.service-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.service-button a{
+    color: white;
+}

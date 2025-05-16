@@ -12,15 +12,16 @@
     <nav class="navbar">
         <nav class="navdiv">
             <div class="logo">WanderLust</div>
-            <div class="hamburger">☰</div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-btn">☰</label>
         <ul class="nav-links">
             <li><a href="./pages/services.html">Services</a></li>
             <li><a href="./pages/destinations.html">Destinations</a></li>
-            <li><a href="./pages/about.html">About</a></li>
+            <li><a href="./pages/events.html">Events</a></li>
         </ul>
-        <div class="button">
-            <button class="primary-button">SignUp</button>
-            <button class="secondary-button">Login</button>
+        <div class="button" id="button-center">
+            <button class="primary-button"><a href="./pages/signup.html">SignUp</a></button>
+            <button class="secondary-button"><a href="./pages/login.html">Login</a></button>
         </div>
         </nav>
     </nav>
@@ -36,7 +37,7 @@
                 <img src="./assets/images/banner-final.PNG">
             </div>
              <div class="button-links">
-                <button><a href="./pages/booking-page.html">Start Booking</a></button>
+                <button><a href="./pages/startbooking.html">Start Booking</a></button>
              </div>    
         </section>
 
@@ -76,7 +77,8 @@
         </section>
         <hr>
         <!--Contact Section-->
-        <section id="Contact-section">
+      
+         <section id="Contact-section">
             <h1 class="contact-text">Get in touch</h1>
 
             <div class="contact-container">
@@ -85,7 +87,7 @@
                     <h2 class="contact-head">We'd love to help</h2>
                     <p>We're travel agency with experts ready to assist you. we'll be in touch within 24 hours.</p>
                    
-                    <form>
+                    <form action="./pages/Submit-page.html">
                            <div class="form-row">
                             <input type="text" placeholder="First name" required>
                             <input type="text" placeholder="Last name" required>
@@ -98,7 +100,6 @@
                             <button type="submit"><a href="./pages/Submit-page.html">Send message</a></button>
                     </form>
                 </div>
-                
                 <!--right-->
                 <div class="testimonial-panel">
                     <div class="image-panel">
@@ -107,6 +108,8 @@
                 </div>
             </div>
         </section>
+
+        
 
     </main>
      <!--footer-->

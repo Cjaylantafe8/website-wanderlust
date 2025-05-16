@@ -15,6 +15,9 @@ form input, form textarea, form button{
     margin-bottom: 15px;
     font-size: 14px;
 }
+form input {
+    color: #333;
+}
 form textarea{
     overflow: hidden;
     resize: none;

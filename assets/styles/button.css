@@ -12,6 +12,9 @@
     cursor: pointer;
     transition: transform 0.3s ease;
 }
+.primary-button a{
+    color: transparent;
+}
 .secondary-button{
     background: linear-gradient(to right, #0052D4, #4364F7, #6FB1FC);
     color: white;
@@ -22,6 +25,9 @@
     cursor: pointer;
     transition: transform 0.3s ease;
 
+}
+.secondary-button a{
+    color: white;
 }
 
 .primary-button:hover{
@@ -44,4 +50,10 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media only screen and (max-width: 768px) {
+    .button{
+    margin-right: -80px;
+}
+  
 }
